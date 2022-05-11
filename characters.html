@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!-- Required Bootstrap meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+        <!-- Bootstrap JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+        <!-- CSS -->
+        <link href="styles.css" rel="stylesheet">
+
+         <script>
+            /* Light speed error --> */
+            document.addEventListener('DOMContentLoaded', function() {
+                document.querySelector('#falcon').addEventListener('click', function(event) {
+                    alert("Cannot jump to lightspeed; please fix hyperdrive motivator.");
+                });
+            });
+        </script>
+
+        <title>Star Wars</title>
+
+    </head>
+    <body style="background-color: black;">
+
+        <!-- Nav bar -->
+        <nav class="navbar px-5">
+            <div class="container-fluid" style="background-color: Sienna;">
+                <a class="navbar-brand yellow" id="falcon">Millennium Falcon</a>
+                <a class="navbar-brand yellow" href="planets.html">Planets</a>
+                <a class="navbar-brand yellow" href="index.html">Home</a>
+                <a class="navbar-brand yellow" href="characters.html">My favorite characters</a>
+                <a class="navbar-brand yellow" href="quiz.html">Quiz</a>
+            </div>
+        </nav>
+
+        <br>
+
+        <!-- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_border_image -->
+        <!-- Favorite characters and their info -->
+        <div class="container">
+            <div class="row align-items-start" style="font-size: 28px">
+                <div class="col">
+                    <p>My Favorite Jedi:</p>
+                </div>
+                <div class="col">
+                    <p>My Favorite Sith:</p>
+                </div>
+                <div class="col">
+                    <p>My Favorite Miscellaneous:</p>
+                </div>
+            </div>
+
+            <!-- Favorite characters -->
+            <div class="row align-items-center">
+                <div class="col">
+                    <img src="media/anakin.jpg" alt="Anakin Skywalker" class="img-fluid border">
+                    <p class="sources">https://medium.com/@neilanbradley/in-defense-of-anakin-skywalker-f3aeb9ea043c</p>
+                    <p> </p>
+                    <p>Name: Anakin Skywalker</p>
+                    <p>Ranking: Kevin's favorite Jedi</p>
+                    <p>Choice weapon: Blue lightsaber</p>
+                    <p>Classiness: 8/10</p>
+                    <p>Highlights: S Tier</p>
+                </div>
+                <div class="col">
+                    <img src="media/kyloren.jpg" alt="Kylo Ren" class="img-fluid border">
+                    <p class="sources">https://www.starwars.com/databank/kylo-ren</p>
+                    <p> </p>
+                    <p>Name: Kylo Ren</p>
+                    <p>Ranking: Kevin's favorite Sith</p>
+                    <p>Choice weapon: Red modified lightsaber</p>
+                    <p>Classiness: 5/10</p>
+                    <p>Highlights: B Tier</p>
+                </div>
+                <div class="col">
+                    <img src="media/padme.jpg" alt="Padmé Naberrie" class="img-fluid border">
+                    <p class="sources">https://www.starwars.com/news/6-favorite-padme-moments-ek-johnston</p>
+                    <p> </p>
+                    <p>Name: Padmé Amidala</p>
+                    <p>Ranking: Kevin's favorite Miscellaneous</p>
+                    <p>Choice weapon: Diplomacy</p>
+                    <p>Classiness: 8/10</p>
+                    <p>Highlights: A Tier</p>
+                </div>
+            </div>
+
+            <!-- Second favorite characters -->
+            <div class="row align-items-center">
+                <div class="col">
+                    <img src="media/rey.jpg" alt="Rey" class="img-fluid border">
+                    <p class="sources">https://www.denofgeek.com/movies/star-wars-rey-facts/</p>
+                    <p> </p>
+                    <p>Name: Rey</p>
+                    <p>Ranking: Kevin's second favorite Jedi</p>
+                    <p>Choice weapon: Blue lightsaber</p>
+                    <p>Classiness: 7/10</p>
+                    <p>Highlights: A Tier</p>
+                </div>
+                <div class="col">
+                    <img src="media/darthmaul.jpg" alt="Darth Maul" class="img-fluid border">
+                    <p class="sources">https://www.gamesradar.com/darth-maul-star-wars-live-action-comeback/</p>
+                    <p> </p>
+                    <p>Name: Darth Maul</p>
+                    <p>Ranking: Kevin's second favorite Sith</p>
+                    <p>Choice weapon: Double-sided red lighsaber</p>
+                    <p>Classiness: 8/10</p>
+                    <p>Highlights: C Tier</p>
+                </div>
+                <div class="col">
+                    <img src="media/hansolo.jpg" alt="Han Solo" class="img-fluid border">
+                    <p class="sources">https://www.digitalspy.com/movies/a832429/star-wars-black-han-solo-glynn-turman/</p>
+                    <p> </p>
+                    <p>Name: Han Solo</p>
+                    <p>Ranking: Kevin's second favorite Miscellaneous</p>
+                    <p>Choice weapon: Blaster</p>
+                    <p>Classiness: 10/10</p>
+                    <p>Highlights: A Tier</p>
+                </div>
+            </div>
+
+            <!-- Third favorite characters -->
+            <div class="row align-items-center">
+                <div class="col">
+                    <img src="media/macewindu.jpg" alt="Mace Windu" class="img-fluid border">
+                    <p class="sources">https://tvovermind.com/can-mace-windu-return-for-season-3-of-the-mandalorian/</p>
+                    <p> </p>
+                    <p>Name: Mace Windu</p>
+                    <p>Ranking: Kevin's third favorite Jedi</p>
+                    <p>Choice weapon: Purple lightsaber</p>
+                    <p>Classiness: 9/10</p>
+                    <p>Highlights: C Tier</p>
+                </div>
+                <div class="col">
+                    <img src="media/darthsidious.jpg" alt="Darth Sidious" class="img-fluid border">
+                    <p class="sources">https://www.polygon.com/2019/12/19/21030344/how-is-emperor-palpatine-alive-in-star-wars-rise-of-skywalker-snoke-kylo-rey-vader-spoilers</p>
+                    <p> </p>
+                    <p>Name: Darth Sidious</p>
+                    <p>Ranking: Kevin's third favorite Sith</p>
+                    <p>Choice weapon: Lightning</p>
+                    <p>Classiness: 6/10</p>
+                    <p>Highlights: B Tier</p>
+                </div>
+                <div class="col">
+                    <img src="media/r2d2.jpg" alt="R2-D2" class="img-fluid border">
+                    <p class="sources">https://www.gamesradar.com/got-a-spare-dollar25000-you-can-buy-a-life-size-r2-d2-at-star-wars-galaxys-edge/</p>
+                    <p> </p>
+                    <p>Name: R2-D2</p>
+                    <p>Ranking: Kevin's third favorite Miscellaneous</p>
+                    <p>Choice weapon: Brain</p>
+                    <p>Classiness: 10/10</p>
+                    <p>Highlights: S Tier</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
